@@ -31,7 +31,8 @@ Or install it yourself as:
   class DummyClass
     include Injectable::Initializer
 
-    def initialize(variable, other_variable, overwrites = {})
+    def initialize(variable, other_variable)
+      overwrites = {} #can be passed in initializer but they need to be passed first to super or just pass an empty hash
       super(overwrites, variable, other_variable)
     end
 
