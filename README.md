@@ -18,7 +18,35 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+
+  class OtherClass
+    def initialize(variable)
+      @variable = variable
+    end
+
+    attr_reader :variable
+  end
+
+  class DummyClass
+    include Injectable::Initializer
+
+    def initialize(variable, other_variable, overwrites = {})
+      super(overwrites, variable, other_variable)
+    end
+
+    def defaults
+      {
+        other_class: OtherClass.new(variable),
+        some_class: OtherClass.new(other_variable)
+      }
+    end
+  end
+
+```
+
+
+
 
 ## Contributing
 
