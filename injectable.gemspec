@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["lusu777@gmail.com"]
   spec.summary       = %q{Ruby automated initializer injection}
   spec.description   = %q{Initializer injection for all your colaborators, with a bit of magic. This would be usefull in your testing cause you can inject colaborators}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/andrei-miulescu/injectable"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
