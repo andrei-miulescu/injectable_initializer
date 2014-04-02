@@ -1,6 +1,8 @@
 # Injectable
 
-TODO: Write a gem description
+Simple and powerfull injection with automatic setters for initialized variables and dependencies.
+
+Very usefull if you have a lot of collaborators and you need to pass objects to them, rather than doing it manually follow the convetion below.
 
 ## Installation
 
