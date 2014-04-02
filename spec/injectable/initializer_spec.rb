@@ -12,7 +12,7 @@ module Injectable
   end
 
   class DummyClass
-    include Initializer
+    include Injectable::Initializer
 
     def initialize(variable, other_variable, overwrites = {})
       super(overwrites, variable, other_variable)
@@ -20,8 +20,8 @@ module Injectable
 
     def defaults
       {
-        other_class: Injectable::OtherClass.new(variable),
-        some_class: Injectable::OtherClass.new(other_variable)
+        other_class: OtherClass.new(variable),
+        some_class: OtherClass.new(other_variable)
       }
     end
   end

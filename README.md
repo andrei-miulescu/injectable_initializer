@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ```ruby
 
-  class OtherClass
+  class SomeCollaboratorClass
     def initialize(variable)
       @variable = variable
     end
@@ -40,8 +40,9 @@ Or install it yourself as:
 
     def defaults
       {
-        other_class: OtherClass.new(variable),
-        some_class: OtherClass.new(other_variable)
+        other_class: SomeCollaboratorClass.new(variable),
+        some_class: SomeCollaboratorClass.new(other_variable),
+        naked_collaborator: Class.new
       }
     end
   end
