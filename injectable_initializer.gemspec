@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'injectable/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "injectable"
+  spec.name          = "injectable_initializer"
   spec.version       = Injectable::VERSION
   spec.authors       = ["Andrei Miulescu"]
   spec.email         = ["lusu777@gmail.com"]
   spec.summary       = %q{Ruby automated initializer injection}
   spec.description   = %q{Initializer injection for all your colaborators, with a bit of magic. This would be usefull in your testing cause you can inject colaborators}
-  spec.homepage      = "https://github.com/andrei-miulescu/injectable"
+  spec.homepage      = "https://github.com/andrei-miulescu/injectable_initializer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

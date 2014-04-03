@@ -8,7 +8,7 @@ Very usefull if you have a lot of collaborators and you need to pass objects to 
 
 Add this line to your application's Gemfile:
 
-    gem 'injectable'
+    gem 'injectable_initializer'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install injectable
+    $ gem install injectable_initializer
 
 ## Usage
 
