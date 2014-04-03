@@ -1,4 +1,4 @@
-# Injectable
+# Injectable Initializer
 
 Simple and powerfull injection with automatic setters for initialized variables and dependencies.
 
