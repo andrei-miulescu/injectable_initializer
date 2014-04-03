@@ -4,6 +4,10 @@ Simple and powerfull injection with automatic setters for initialized variables 
 
 Very usefull if you have a lot of collaborators and you need to pass objects to them, rather than doing it manually follow the convetion below.
 
+## New Features
+
+Raise an issue to suggest new features and I will tend to them, also happy to anwser any questions.
+
 ## Installation
 
 Add this line to your application's Gemfile:
